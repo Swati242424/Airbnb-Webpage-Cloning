@@ -1,0 +1,79 @@
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+@import url(./section4.css);
+@import url(./section5.css);
+@import url(./footer.css);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto,       Helvetica Neue, sans-serif;
+}
+#nav{
+    /* border: 2px solid black; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+#nav svg{
+    color: #ff385c;
+    margin-left: 80px;
+    cursor: pointer;
+}
+#subnav{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 700px;
+    margin-left: 400px;
+    display: flex;
+    
+}
+#subnav ol{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#subnav ol li{
+    padding: 20px;
+    cursor: pointer;
+}
+#content{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 300px;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+#content svg{
+    color: black;
+}
+#login{
+    border: 2px solid rgb(238, 235, 235);
+    border-radius: 25px;
+    height: 50px;
+    width: 90px;
+    margin-left: 10px;
+    /* display: inline-flex; */
+    z-index: 0;
+    position: relative;
+}
+#login svg{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: black;
+}
+#login svg+svg{
+    position: absolute;
+    z-index: 1;
+    margin-top: 8px;
+    margin-left: 20px;
+}

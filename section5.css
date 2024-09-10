@@ -1,0 +1,71 @@
+#section5{
+    /* border: 2px solid; */
+    height: 680px;
+}
+#section5 h1{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#div5a{
+    border: 2px solid rgb(238, 235, 235);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#div5a ol{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 800px;
+    margin-top: 20px;
+    color: rgb(68, 67, 67);
+    cursor: pointer;
+}
+#div5b{
+    height: 300px;
+    width: 90%;
+    border: 2px solid rgb(238, 235, 235);
+    border-top: none;
+    border-right: none;
+    /* margin-left: 30px; */
+}
+#section5 table td{
+    margin-left: 25px;
+    cursor: pointer;
+}
+#section5 table td span{
+    color: rgb(86, 85, 85);
+}
+
+#section5 table td{
+     padding:30px ;
+}
+#div5c{
+    border: 2px solid rgb(238, 235, 235);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 250px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#div5c ol{
+    list-style: none;
+}
+#div5c ol li+li{
+    padding-top: 10px;
+    color: rgb(86, 85, 85);
+    cursor: pointer;
+
+}
+
